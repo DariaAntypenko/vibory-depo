@@ -21,12 +21,7 @@ a {text-decoration: none;}
 .font-red{ color: #c61d14;}
 .font-orange { color: #ff6a00;}
 .font-bold{ font-weight: bold;}
-
-
-.paddingleft-50 {
-    padding-left: 50px;}
-
-
+.paddingleft-50 { padding-left: 50px;}
 .link {
     position: absolute;
     width: 100%;
@@ -37,7 +32,11 @@ a {text-decoration: none;}
     right: 0;
 }
 
-
+.red { background: #c9201b;}
+.orange { background: #c9771b;}
+.blue { background: #1b3cc9;}
+.green { background: #5c964d;}
+.light-blue { background: #1bb5c9;}
 
 .block-map {
     position: relative;
@@ -70,18 +69,23 @@ a {text-decoration: none;}
     height: 256px;
     background-size: contain;
 }
-.block-photo-256,.block-photo {
+.block-photo-256,.block-photo, .block-photo-300, .block-photo-136 {
     -webkit-background-size: cover;
     background-size: cover;
 }
 .rubric {
-
+    margin-top: 10px;
     text-transform: uppercase;
     font-size: 14px ;
+    padding:0 10px;
 }
 .title {
     font-size: 23px;
     text-transform: uppercase;
+    margin-top: 10px;
+    height: 115px;
+    padding:0 10px;
+
 }
 .folder-candidate {
     width: 500px;
@@ -89,21 +93,76 @@ a {text-decoration: none;}
 
 .about-candidate {
     font-size: 20px;
+    padding-top: 10px;
 }
 .candidate {
     position: relative;
-    bottom: -41px;
+    bottom: -5px;
     left: 40px;
 }
+.grey-line {
+    border-bottom: 1px solid #878787;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.container-column {
+    width: 300px;
 
+}
+.container-column-double {
+    width: 616px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-
-
-
-
-
-
-
+.date, .time {
+    color: #707078;
+}
+.block-news-300 {
+    margin-bottom: 20px;
+    position: relative;
+}
+.block-photo-300 {
+    height: 235px;
+}
+.block-photo-136{
+    height: 136px;
+}
+.title-300 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.author-300 {
+    margin: 20px 0;
+    padding:0 10px;
+}
+.lenta-item {
+    border-bottom: 1px solid #878787;
+    padding: 15px 0 10px 0;
+    color: #000;
+}
+.block-max-width {
+    width: 100%;}
+.plashka-rubrics-elections {
+    display: block;
+    width: 290px;
+    height: 40px;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    margin: 0 auto 20px auto;
+}
+a.lenta-title {
+    color: #000;
+}
 
 
 
