@@ -1,0 +1,251 @@
+header {
+    width: 1250px;
+    height: 150px;
+    margin: 0 auto;
+}
+.slider-city {
+    width: 100%;
+}
+.list_city {
+    width: 1250px;
+    padding: 0 57px;
+}
+.item-city{
+    width: 150px;
+    height: 80px !important;
+    position: relative;
+    margin: 0 5px 0 0;
+}
+.link-slider{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+.Kyev {background: url(../slider_city/Kyev.jpg) no-repeat;}
+.odessa {background: url(../slider_city/Odessa.jpg) no-repeat;}
+.zaporijjia {background: url(../slider_city/Zaporijjia.jpg) no-repeat;}
+.donbas {background: url(../slider_city/Donbas.jpg) no-repeat;}
+.lviv {background: url(../slider_city/lviv.jpg) no-repeat;}
+.dnipro {background: url(../slider_city/dnipro.jpg) no-repeat;}
+.harkov {background: url(../slider_city/kh.jpg) no-repeat;}
+.hmelnickiy {background: url(../slider_city/Khmelnitskiy.jpg) no-repeat;}
+.poltava {background: url(../slider_city/poltava.jpg) no-repeat;}
+.prukarpatie {background: url(../slider_city/if_2.jpg) no-repeat;}
+.kropivnuckiy {background: url(../slider_city/kr.jpg) no-repeat;}
+.kuban {background: url(../slider_city/kuban.jpg) no-repeat;}
+.zakarpatye {background: url(../slider_city/zak.jpg) no-repeat;}
+.symu {background: url(../slider_city/sumy.jpg) no-repeat;}
+.vinica {background: url(../slider_city/vn.jpg) no-repeat;}
+.nikolaev {background: url(../slider_city/mk.jpg) no-repeat;}
+.krim {background: url(../slider_city/krym.jpg) no-repeat;}
+.krim, .nikolaev, .vinica, .symu, .zakarpatye, .kuban, .kropivnuckiy,
+.prukarpatie, .poltava, .hmelnickiy, .harkov, .dnipro, .lviv, .donbas,.zaporijjia,.odessa, .Kyev {
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.link-slider:hover{
+    background: #ff6a00;
+}
+.slider-city .slick-prev {
+    background: url(../slider_city/left_arrow.png) !important;
+    background-repeat: no-repeat !important;
+    left: 10px !important;
+}
+.slider-city .slick-next {
+    background: url(../slider_city/right_arrow.png) !important;
+    background-repeat: no-repeat !important;
+    right: 10px !important;
+}
+.slider-city .slick-prev, .slider-city .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 30px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item-navigation {
+    position: relative;
+    font-size: 20px;
+}
+.link-item-navigation{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.lang_block {
+    position: relative;
+    display: inline-block;
+    border-left: 1px solid;
+}
+.my_arrow {
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+select {
+    border: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 50px;
+    font-size: 14px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.share {
+    /* position: relative; */
+    display: inline-block;
+    vertical-align: middle;
+}
+.share .share_icon_first {
+    margin-left: 20px;
+    cursor: pointer;
+}
+.share .drop_share {
+    display: none;
+    background-color: #e7e7e7;
+    position: absolute;
+    width: 1250px;
+    top: 200px;
+    left: 0;
+    z-index: 1;
+    padding: 35px;
+    box-sizing: border-box;
+    border-left: 2px solid;
+}
+
+.share .drop_share .our_group {
+    float: left;
+    width: 400px;
+    height: 45px;
+    background-color: #4999c2;
+    margin-right: 60px;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.share .drop_share .social {
+    text-align: center;
+    float: left;
+    border: 1px solid #9bc7e2;
+    width: 70px;
+    height: 45px;
+    margin: 0 15px;
+    position: relative;
+}
+.share .drop_share .our_group .our_group_img {
+    vertical-align: sub;
+}
+.share .drop_share .our_group .our_group_text {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.share .drop_share .social .soc_icon {
+    padding-top: 12px;
+    vertical-align: baseline;
+}
+/*--------search---------------------------------------------------*/
+.sb-search {
+    float: right;
+    display: inline-block;
+    margin-bottom: 3px;
+    position: relative;
+}
+.sb-search .sb-search-input {
+    border: none;
+    border-left: 1px solid black;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    outline: none;
+    transition: width 0.5s ease-out 0s;
+    -moz-transition: width 0.5s ease-out 0s;
+    -o-transition: width 0.5s ease-out 0s;
+    -webkit-transition: width 0.5s ease-out 0s;
+}
+.sb-search .sb-search-submit {
+    background: url(https://www.depo.ua/static/img/magnifier-2-24.jpg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 3px;
+    border: none;
+    position: absolute;
+    margin-bottom: -15px;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

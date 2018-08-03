@@ -3,16 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="css/style-vibory.css">
+    <link rel="stylesheet" href="css/slider-header.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 <body>
 <header>
+<div class="slider-city">
 
-    <div class="slider_city">
-        <div class="item-city Kyev"><a class="link" href=""></a></div>
+    <div class="list_city ">
+        <div class="item-city Kyev">
+            <a class="link link-slider" href="">КИЇВ</a>
+        </div>
+        <div class="item-city odessa">
+            <a class="link link-slider" href="">Одеса</a>
+        </div>
+        <div class="item-city zaporijjia">
+            <a class="link link-slider" href="">ЗАПОРІЖЖЯ</a>
+        </div>
+        <div class="item-city donbas">
+            <a class="link link-slider" href="">Донбас</a>
+        </div>
+        <div class="item-city lviv">
+            <a class="link link-slider" href="">львiв</a>
+        </div>
+        <div class="item-city dnipro">
+            <a class="link link-slider" href="">Днiпро</a>
+        </div>
+        <div class="item-city harkov">
+            <a class="link link-slider" href="">Харкiв</a>
+        </div>
+        <div class="item-city hmelnickiy">
+            <a class="link link-slider" href="">Хмельницький</a>
+        </div>
+        <div class="item-city poltava">
+            <a class="link link-slider" href="">полтава</a>
+        </div>
+        <div class="item-city prukarpatie">
+            <a class="link link-slider" href="">прикарпаття</a>
+        </div>
+        <div class="item-city kropivnuckiy">
+            <a class="link link-slider" href="">кропивницький</a>
+        </div>
+        <div class="item-city kuban">
+            <a class="link link-slider" href="">кубань</a>
+        </div>
+        <div class="item-city zakarpatye">
+            <a class="link link-slider" href="">закарпаття</a>
+        </div>
+        <div class="item-city symu">
+            <a class="link link-slider" href="">суми</a>
+        </div>
+        <div class="item-city vinica">
+            <a class="link link-slider" href="">вінниця</a>
+        </div>
+        <div class="item-city nikolaev">
+            <a class="link link-slider" href="">миколаїв</a>
+        </div>
+        <div class="item-city krim">
+            <a class="link link-slider" href="">крим</a>
+        </div>
 
     </div>
+
+</div>
+<div class="navigation">
+    <div class="item-navigation">ГОЛОВНА<a class="link" href=""></a></div>
+    <div class="item-navigation">ОКРУГИ<a class="link" href=""></a></div>
+    <div class="item-navigation">ЗАКОНИ<a class="link" href=""></a></div>
+    <div class="item-navigation">ІНТЕРВ’Ю<a class="link" href=""></a></div>
+    <div class="item-navigation">ОНЛАЙН-КОНФЕРЕНЦІЇ<a class="link" href=""></a></div>
+    <div class="item-navigation">ПОДКАСТИ<a class="link" href=""></a></div>
+    <div class="item-navigation">ЛАЙФХАКИ<a class="link" href=""></a></div>
+    <div class="item-navigation">СПЕЦПРОЕКТИ<a class="link" href=""></a></div>
+</div>
+<div class="navigation-right">
+    <div class="lang_block">
+        <div class="my_arrow"></div>
+        <select name="select_lang" class="select_lang">
+            <option class="lang_switch" value="rus" id="langru">РУС</option>
+            <option class="lang_switch" value="ukr" id="langua" selected="">УКР</option>
+        </select>
+    </div>
+
+    <div class="share" id="share_list">
+          <span class="share_icon_first">
+              <img src="image/share-1-24.png" alt="" class="icon share">
+          </span>
+
+        <div class="drop_share">
+            <div class="our_group">
+                <img src="image/people.png" class="our_group_img" alt="наши сообщества">
+                <p class="our_group_text">Наші спільноти</p>
+            </div>
+            <div class="social"><a href="https://www.facebook.com/depoua/" class="social_share_link">
+                <img src="image/facebook.png?v=1" alt="социальная сеть файсбук" class="soc_icon"></a>
+            </div>
+            <div class="social"><a href="https://twitter.com/depo_ua" class="social_share_link">
+                <img src="image/twitter.png?v=1" alt="социальная сеть твиттер" class="soc_icon"></a>
+            </div>
+            <div class="social">
+                <a href="https://plus.google.com/+DepoUaUKR" class="social_share_link">
+                <img src="image/google.png?v=1" alt="гугле" class="soc_icon"></a>
+            </div>
+            <div class="social">
+                <a href="https://www.youtube.com/channel/UCntOlORvjUWhPLsU_uL60Hg"class="link"></a>
+                <img src="/static/img/youtube-pic.png?v=1" alt="youtube" style="padding-top: 8px;" class="soc_icon">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sb-search">
+        <form action="/search/" method="GET" onsubmit="var query_string = document.getElementById('query').value.replace('\'','%27'); location.href = this.action + query_string.replace('/',' '); return false;" class="top_search">
+            <input type="text" class="ts_input sb-search-input" name="query" id="query" value="" placeholder="Пошук...">
+            <input type="submit" class="ts_submit sb-search-submit" value="">
+        </form>
+    </div>
+</div>
+
 
 </header>
 
@@ -535,9 +645,9 @@
 
 
 
-
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="Scripts/java-script.js"></script>
 
 </body>
 </html>
