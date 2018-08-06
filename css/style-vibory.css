@@ -189,6 +189,30 @@ a.lenta-title {
 }
 
 
+
+.video-container{
+    width: 100%;
+    margin-bottom: 60px;}
+.video-title{
+    font-size: 28px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.video-photo {
+    width: 100%;
+    height: 550px;
+}
+.section{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.photo-280{
+    width: 100%;
+    height: 280px;
+}
+
+
 .block-photo-h400 {
     height: 400px;
 }
