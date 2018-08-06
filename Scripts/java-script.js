@@ -23,3 +23,26 @@ $('.list_city').slick({
         }
     }]
 });
+
+
+$('.main_menu.for-desctop').on('click tap', function () {
+    $('.fullscreen-navigation.for-desctop').toggleClass("open");
+});
+$('.main_menu.for-mobile').on('click tap', function () {
+    $('.fullscreen-navigation.for-mobile').toggleClass("open");
+});
+$('.close-btn').on('click tap', function () {
+    $('.fullscreen-navigation').removeClass("open");
+});
+$('#share_list').on('click tap', function () {
+    $('#share_list').toggleClass("open");
+});
+
+$(document).mouseup(function (e) {
+    if ($('.dropdown_main_menu').has(e.target).length === 0 && $('.fullscreen-navigation').hasClass('open') && $('#bigmenu').has(e.target).length === 0) {
+        $('.fullscreen-navigation').removeClass('open');
+
+    } else if ($('.drop_share').has(e.target).length === 0 && $('#share_list').hasClass('open') && $('#share_list').has(e.target).length === 0) {
+        $('#share_list').removeClass('open');
+    }
+});

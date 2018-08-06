@@ -1,13 +1,18 @@
 header {
     width: 1250px;
     height: 150px;
-    margin: 0 auto;
+    margin: 40px auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .slider-city {
     width: 100%;
+    margin-bottom: 20px;
 }
 .list_city {
-    width: 1250px;
+    width: 100%;
     padding: 0 57px;
 }
 .item-city{
@@ -91,10 +96,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 78%;
 }
 .item-navigation {
     position: relative;
     font-size: 20px;
+    padding-top: 4px;
+    box-sizing: border-box;
 }
 .link-item-navigation{
     position: absolute;
@@ -109,6 +117,7 @@ header {
     position: relative;
     display: inline-block;
     border-left: 1px solid;
+    margin-right: 5px;
 }
 .my_arrow {
     width: 6px;
@@ -129,16 +138,19 @@ select {
     padding: 7px;
     cursor: pointer;
 }
-
+/*------------------------------share----------------------*/
 .share {
     /* position: relative; */
     display: inline-block;
     vertical-align: middle;
 }
 .share .share_icon_first {
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
+    display: block;
+    padding: 3px 0 5px 0;
 }
+
 .share .drop_share {
     display: none;
     background-color: #e7e7e7;
@@ -151,7 +163,9 @@ select {
     box-sizing: border-box;
     border-left: 2px solid;
 }
-
+.share.open .drop_share {
+    display: block;
+}
 .share .drop_share .our_group {
     float: left;
     width: 400px;
@@ -185,6 +199,13 @@ select {
     padding-top: 12px;
     vertical-align: baseline;
 }
+.navigation-right {
+    width: 220px;
+}
+#share_list {
+    border-left: 1px solid #000;
+    vertical-align: top;
+}
 /*--------search---------------------------------------------------*/
 .sb-search {
     float: right;
@@ -195,7 +216,7 @@ select {
 .sb-search .sb-search-input {
     border: none;
     border-left: 1px solid black;
-    padding: 5px;
+    padding: 7px 5px;
     position: absolute;
     right: 0;
     width: 100px;
@@ -219,17 +240,101 @@ select {
     top: 0;
     cursor: pointer;
 }
+.sb-search .sb-search-input:focus {
+    width: 200px;
+}
 
 
+/*--------------------бургер меню--------------------------------------------------------*/
 
+.fullscreen-navigation.open {
+    opacity: 1;
+    top: 0;
+}
+.fullscreen-navigation {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    top: -4000px;
+    background-color: #2a2d2e;
+    -moz-transition: top 0.5s ease, opacity 0.5s ease;
+    -webkit-transition: top 0.5s ease, opacity 0.5s ease;
+    -o-transition: top 0.5s ease, opacity 0.5s ease;
+    transition: top 0.5s ease, opacity 0.5s ease;
+}
+.fullscreen-navigation .close-btn {
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+header .dropdown_main_menu {
+    background-color: #2a2d2e;
+    width: 75%;
+    height: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 2;
+}
+header .dropdown_main_menu .item {
+    padding: 0 10px;
+    margin: 0 10px;
+}
+header .dropdown_main_menu .title_sub_main_menu {
+    display: block;
+    border-bottom: 1px solid #656565;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+header .dropdown_main_menu .link_main_menu {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+}
+header .dropdown_main_menu .inline {
+    padding: 10px 0;
+}
+header .dropdown_main_menu .inline .inline_item {
+    display: inline-block;
+    width: 140px;
+    padding: 0 10px;
+}
+/*--------------------------------*/
 
+header .drop_nav {
+    /*float: left;*/
+    margin-top: 10px;
+}
+header .main_menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+header .line_hamburger {
+    width: 27px;
+    height: 3px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 6px;
+    background-color: #000;
+}
 
-
-
-
-
-
-
+.item-navigation:hover{
+    color: #ff6a00;
+    font-weight: bold;
+}
 
 
 

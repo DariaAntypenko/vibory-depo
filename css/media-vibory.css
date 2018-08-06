@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1279px) and (min-width: 1024px){
+    .container, header {
+        width: 930px;}
+    .item-navigation{
+        margin-right: 15px;}
+    .navigation {
+        justify-content: flex-start;
+        width: 67%;}
+    .banner300-256{
+        display: none;
+    }
+    .block-w406 {
+        width: 300px;}
+    .block-photo {
+        height: 614px;}
+    .resize-300, .resize-300 .container-column{
+        width: 457px;
+    }
+    .block-photo-136 {
+        height: 180px;
+    }
+    .block-max-width-tablet{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .plashka-rubrics-elections{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .container, header {
+        width: 728px;}
+}
+
+
+
+
+/*http://prntscr.com/kfddbw*/

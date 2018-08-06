@@ -3,8 +3,13 @@
     margin: 0;
     font-family: 'PT Sans', sans-serif;
 }
+ul {
+    list-style: none;
+}
 img {vertical-align: middle;}
 a {text-decoration: none;}
+
+
 .container {
     width: 1250px;
     margin: 0 auto;
@@ -12,6 +17,7 @@ a {text-decoration: none;}
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
 }
 .banner300-256 {
     width: 300px;
