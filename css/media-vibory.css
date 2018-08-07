@@ -7,15 +7,22 @@
         justify-content: flex-start;
         width: 67%;}
     .banner300-256{
-        display: none;
-    }
+        display: none; }
+    .video-photo {
+        height: 401px;}
     .block-w406 {
         width: 300px;}
     .block-photo {
         height: 614px;}
-    .resize-300, .resize-300 .container-column{
-        width: 457px;
+    .resize, .resize .container-column{
+        width: 457px;    }
+    .block-max-width .title-video {
+        padding-left: 300px;
     }
+    .interview {
+        margin: 30px 0;}
+    .photo-280 {
+        height: 223px;}
     .block-photo-136 {
         height: 180px;
     }
@@ -26,14 +33,148 @@
     .plashka-rubrics-elections{
         margin-top: 20px;
     }
+    .share .drop_share .our_group {
+        width: 360px;
+        top: 164px;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .container, header {
         width: 728px;}
+    .navigation {
+        justify-content: flex-start;
+        width: 92%;}
+    .item-navigation {
+        margin-right: 30px;}
+    .navigation-right {
+        position: absolute;
+        right: 0;
+        top: 103px;}
+    .share .drop_share {
+        width: 728px;
+        top: 75px;
+        left: -508px;}
+    .share .drop_share .social{
+        margin: 0 12px;
+    }
+    .share .drop_share .our_group {
+        width: 255px;
+        margin-right: 10px;}
+    .title-map {
+        font-size: 34px;}
+    .block-photo {
+        height: 483px;}
+    .logo-maps {
+        width: 117px;}
+    .block-max-width .title-video {
+        padding-left: 230px;
+    }
+    .container-column {
+        width: 357px;}
+    .title-ds {
+        width: 500px;}
+    .video-photo {
+        height: 315px;
+    }
+    .video-container {
+        margin-bottom: 30px;}
+    .container-column-double{
+        width: 100%;}
+    .block-w406 {
+        width: 232px;}
+    .interview {
+        height: 132px;
+        margin: 30px 0;}
+    .banner300-256 {
+        display: none;}
+    .block-news , .folder-candidate {
+        width: 357px;
+    }
+    .sb-search .sb-search-input{
+        padding: 4px 5px; }
+    .share .share_icon_first {
+        padding: 1px 0 0 0;}
+    select {
+        padding: 4px 7px;}
+    .item-navigation:last-child {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px){
+    .container, header, .container-column, .container-column-double,
+    .block-news , .folder-candidate, .block-w406{
+        width: 100%;}
+    .container, header {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .block-max-width {
+        margin-top: 20px;}
+    .video-photo {
+        height: 214px;    }
+    .photo-280 {
+        height: 242px;}
+    .block-max-width .title-video {
+        padding-left: 30px;    }
+    .interview {
+        height: 90px;
+        margin: 20px 0;}
+    .block-photo {
+        height: 327px;    }
+    .title-map {
+        font-size: 24px;}
+    .section-video {
+        font-size: 24px;
+        margin-bottom: 5px;
+        margin-top: 15px;}
+    .logo-maps {
+        width: 100px;}
+    .block-map {
+        margin-bottom: 20px;}
+    .video-title {
+        font-size: 24px;}
+    .banner300-256 {
+        display: none;}
+
+    .navigation {
+        justify-content: flex-start;
+        width: 92%;}
+    .item-navigation {
+        margin-right: 30px;}
+    .navigation-right {
+        position: absolute;
+        right: 0;
+        top: 103px;}
+    .share .drop_share {
+        width: 728px;
+        top: 75px;
+        left: -508px;}
+    .share .drop_share .social{
+        margin: 0 12px;    }
+    .share .drop_share .our_group {
+        width: 255px;
+        margin-right: 10px;}
+
+
+    .title-ds {
+        width: 500px;}
+    .video-container {
+        margin-bottom: 30px;}
+
+
+
+    .sb-search .sb-search-input{
+        padding: 4px 5px; }
+    .share .share_icon_first {
+        padding: 1px 0 0 0;}
+    select {
+        padding: 4px 7px;}
+    .item-navigation:last-child {
+        margin-right: 0;
+    }
+
 }
 
 
 
-
-/*http://prntscr.com/kfddbw*/

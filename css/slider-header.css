@@ -155,7 +155,7 @@ select {
     display: none;
     background-color: #e7e7e7;
     position: absolute;
-    width: 1250px;
+    width: 100%;
     top: 200px;
     left: 0;
     z-index: 1;
@@ -206,6 +206,8 @@ select {
     border-left: 1px solid #000;
     vertical-align: top;
 }
+
+
 /*--------search---------------------------------------------------*/
 .sb-search {
     float: right;
