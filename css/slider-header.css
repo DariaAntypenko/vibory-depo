@@ -140,7 +140,6 @@ select {
 }
 /*------------------------------share----------------------*/
 .share {
-    /* position: relative; */
     display: inline-block;
     vertical-align: middle;
 }
@@ -156,7 +155,7 @@ select {
     background-color: #e7e7e7;
     position: absolute;
     width: 100%;
-    top: 200px;
+    top: 170px;
     left: 0;
     z-index: 1;
     padding: 35px;
@@ -337,7 +336,32 @@ header .line_hamburger {
     color: #ff6a00;
     font-weight: bold;
 }
+#bigmenu.for-mobile {
+    display: none;
+}
+.fullscreen-navigation.for-mobile {
+    display: none;
+}
+.fullscreen-navigation.open {
+    opacity: 1;
+    top: 0;
+}
+.fullscreen-navigation.for-mobile {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.fullscreen-navigation.for-mobile .menu-column .item-for-mobile {
+    min-width: 140px;
+    min-height: 43px;
+    padding: 6px 0;
+    box-sizing: border-box;
+}
+.fullscreen-navigation.for-mobile .menu-column .item-for-mobile a {
+    color: #fff;
+    font-size: 19px;
+}
 
 
 

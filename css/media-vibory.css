@@ -6,6 +6,8 @@
     .navigation {
         justify-content: flex-start;
         width: 67%;}
+    .title-map {
+        font-size: 49px;}
     .banner300-256{
         display: none; }
     .video-photo {
@@ -17,25 +19,25 @@
     .resize, .resize .container-column{
         width: 457px;    }
     .block-max-width .title-video {
-        padding-left: 300px;
-    }
+        padding-left: 300px;}
+    .title-ds {
+        width: 260px;}
     .interview {
         margin: 30px 0;}
     .photo-280 {
         height: 223px;}
     .block-photo-136 {
-        height: 180px;
-    }
+        height: 180px;}
     .block-max-width-tablet{
         width: 100%;
-        margin-top: 20px;
-    }
+        margin-top: 20px;}
     .plashka-rubrics-elections{
-        margin-top: 20px;
-    }
+        margin-top: 20px;}
     .share .drop_share .our_group {
         width: 360px;
         top: 164px;}
+    .video-container {
+        margin-bottom: 30px;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
@@ -65,7 +67,8 @@
     .block-photo {
         height: 483px;}
     .logo-maps {
-        width: 117px;}
+        width: 117px;
+        top:0;}
     .block-max-width .title-video {
         padding-left: 230px;
     }
@@ -104,9 +107,12 @@
 @media only screen and (max-width: 767px) and (min-width: 320px){
     .container, header, .container-column, .container-column-double,
     .block-news , .folder-candidate, .block-w406{
-        width: 100%;}
+        width: 100%;
+    }
+
     .container, header {
         padding: 0 10px;
+        min-width: 320px;
         box-sizing: border-box;
     }
     .block-max-width {
@@ -121,7 +127,7 @@
         height: 90px;
         margin: 20px 0;}
     .block-photo {
-        height: 327px;    }
+        height: 478px;    }
     .title-map {
         font-size: 24px;}
     .section-video {
@@ -138,8 +144,7 @@
         display: none;}
 
     .navigation {
-        justify-content: flex-start;
-        width: 92%;}
+        display: none}
     .item-navigation {
         margin-right: 30px;}
     .navigation-right {
@@ -155,15 +160,10 @@
     .share .drop_share .our_group {
         width: 255px;
         margin-right: 10px;}
-
-
     .title-ds {
         width: 500px;}
     .video-container {
         margin-bottom: 30px;}
-
-
-
     .sb-search .sb-search-input{
         padding: 4px 5px; }
     .share .share_icon_first {
@@ -173,8 +173,21 @@
     .item-navigation:last-child {
         margin-right: 0;
     }
-
+    .block-photo-136 {
+        height: 200px;
+    }
+    #bigmenu.for-desctop {
+        display: none;
+    }
+    #bigmenu.for-mobile {
+        display: block;
+    }
 }
 
-
+@media only screen and (max-width: 767px) and (min-width: 620px){
+    .about-candidate {
+        padding-left: 20%;}
+    .candidate{
+        left: 138px;    }
+}
 

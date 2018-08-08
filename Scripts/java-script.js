@@ -21,6 +21,24 @@ $('.list_city').slick({
             slidesToShow: 4,
             slidesToScroll: 4
         }
+    }, {
+        breakpoint: 750,
+        settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3
+        }
+    }, {
+        breakpoint: 600,
+        settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+        }
+    }, {
+        breakpoint: 460,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
     }]
 });
 

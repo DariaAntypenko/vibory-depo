@@ -28,6 +28,8 @@ a {text-decoration: none;}
 .font-orange { color: #ff6a00;}
 .font-bold{ font-weight: bold;}
 .paddingleft-50 { padding-left: 50px;}
+.paddingleft-10{
+    padding-left: 10px;}
 .link {
     position: absolute;
     width: 100%;
@@ -50,12 +52,13 @@ a {text-decoration: none;}
     width: 100%;
 }
 .title-map {
-    font-size: 45px;
+    font-size: 65px;
+    line-height: 50px;
     text-transform: uppercase;
 }
 .logo-maps {
     position: absolute;
-    top: 0;
+    top: -8px;
     right: 0;
 }
 .block-photo {
@@ -82,11 +85,11 @@ a {text-decoration: none;}
 .rubric {
     margin-top: 10px;
     text-transform: uppercase;
-    font-size: 14px ;
+    font-size: 16px ;
     padding:0 10px;
 }
 .title {
-    font-size: 23px;
+    font-size: 25px;
     text-transform: uppercase;
     margin-top: 10px;
     height: 115px;
@@ -98,8 +101,9 @@ a {text-decoration: none;}
 }
 
 .about-candidate {
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 4px;
 }
 .candidate {
     position: relative;
@@ -143,6 +147,7 @@ a {text-decoration: none;}
     padding-left: 10px;
 }
 .author-300 {
+    font-size: 15px;
     margin: 20px 0;
     padding:0 10px;
 }
@@ -155,7 +160,7 @@ a {text-decoration: none;}
     height: 60px;}
 .title-ds {
     width: 410px;
-    font-size: 19px;
+    font-size: 20px;
 }
 .lenta-item {
     border-bottom: 1px solid #878787;
@@ -169,7 +174,7 @@ a {text-decoration: none;}
     display: block;
     width: 290px;
     height: 40px;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
@@ -180,8 +185,10 @@ a {text-decoration: none;}
 }
 a.lenta-title {
     color: #000;
+    font-size: 20px;
 }
 .ds-news-item {
+    position: relative;
     width: 100%;
     margin: 25px 0;
     display: flex;
@@ -195,7 +202,7 @@ a.lenta-title {
     margin-bottom: 60px;
     margin-top: 30px;}
 .video-title{
-    font-size: 28px;
+    font-size: 34px;
     padding-left: 10px;
     margin-bottom: 15px;
 }
@@ -207,6 +214,7 @@ a.lenta-title {
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 15px;
+    margin-top: 10px;
 }
 .photo-280{
     width: 100%;
@@ -245,6 +253,7 @@ a.lenta-title {
 .section-video{
     font-size: 34px;
     margin-bottom: 25px;
+    margin-top: 20px;
 }
 .block-max-width .title-video {
     padding-left: 600px;
