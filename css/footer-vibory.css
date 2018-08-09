@@ -1,0 +1,61 @@
+.font-grey {
+    color: #a8a8a8;
+}
+
+
+#footer {
+    width: 1250px;
+    padding: 15px;
+    background: #000;
+    overflow: hidden;
+    margin: 25px auto 0 auto;
+    box-sizing: border-box;
+}
+#footer .left_links {
+    float: left;
+    width: 85px;
+    margin-right: 65px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.link-item-footer{
+    width: 68px;
+    padding-left: 17px;
+    color: #fff;
+    line-height: 24px;
+    font-size: 14px;
+    background: rgba(77, 77, 77, 0);
+}
+#footer .central_info {
+    float: left;
+    width: 50%;
+    font-size: 10px;
+    line-height: 16px;
+    color: #a8a8a8;
+}
+#footer .central_info .top_line {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+}
+.nk-plashka {
+    padding: 2px 5px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: #b39b7e;
+    margin-left: 5px;
+}
+#footer .right_counters {
+    float: right;
+    width: 90px;
+}
+
+#footer .right_counters .item {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+

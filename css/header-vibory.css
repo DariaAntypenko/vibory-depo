@@ -6,6 +6,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background: #fff;
 }
 .slider-city {
     width: 100%;
@@ -363,7 +364,32 @@ header .line_hamburger {
     font-size: 19px;
 }
 
+.header-sticky{
+    width: 100%;
+    z-index: 111;
 
+}
+.sticky {
+    position: fixed;
+    top: 0;
+}
+#header-fix.header-sticky.sticky header{
+    margin:  0 auto;
+    padding-top: 10px;
+    height: auto;
+}
+#header-fix.header-sticky.sticky .link-slider {
+    padding: 5px 0;
+}
+#header-fix.header-sticky.sticky .item-city{
+    height: 35px !important;
+}
+#header-fix.header-sticky.sticky  .slider-city{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+/*------------------------------------------------------------------------------------------*/
 
 
 

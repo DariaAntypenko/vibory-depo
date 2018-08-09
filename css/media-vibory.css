@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
-    .container, header {
+    .container, header, #footer {
         width: 930px;}
     .item-navigation{
         margin-right: 15px;}
@@ -41,7 +41,7 @@
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .container, header {
+    .container, header, #footer {
         width: 728px;}
     .navigation {
         justify-content: flex-start;
@@ -102,18 +102,21 @@
     .item-navigation:last-child {
         margin-right: 0;
     }
+    #header-fix.header-sticky.sticky .navigation-right {
+        top: 58px;
+    }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 320px){
     .container, header, .container-column, .container-column-double,
-    .block-news , .folder-candidate, .block-w406{
+    .block-news , .folder-candidate, .block-w406, #footer {
         width: 100%;
     }
-
     .container, header {
         padding: 0 10px;
         min-width: 320px;
         box-sizing: border-box;
+        margin: 0 auto 10px auto;
     }
     .block-max-width {
         margin-top: 20px;}
@@ -129,19 +132,19 @@
     .block-photo {
         height: 478px;    }
     .title-map {
-        font-size: 24px;}
+        font-size: 24px;
+        line-height: 25px;}
     .section-video {
         font-size: 24px;
         margin-bottom: 5px;
         margin-top: 15px;}
-    .logo-maps {
-        width: 100px;}
+    .logo-maps, #footer .central_info, .banner300-256 {
+        display: none;}
     .block-map {
         margin-bottom: 20px;}
     .video-title {
         font-size: 24px;}
-    .banner300-256 {
-        display: none;}
+
 
     .navigation {
         display: none}
@@ -149,7 +152,7 @@
         margin-right: 30px;}
     .navigation-right {
         position: absolute;
-        right: 0;
+        right: 10px;
         top: 103px;}
     .share .drop_share {
         width: 728px;
@@ -165,7 +168,9 @@
     .video-container {
         margin-bottom: 30px;}
     .sb-search .sb-search-input{
-        padding: 4px 5px; }
+        padding: 4px 5px;
+        right: 0;
+        width: 175px;}
     .share .share_icon_first {
         padding: 1px 0 0 0;}
     select {
@@ -181,7 +186,16 @@
     }
     #bigmenu.for-mobile {
         display: block;
+        margin-top: -11px;
+        margin-left: 11px;
     }
+    .navigation-right {
+        width: 290px;
+    }
+    #header-fix.header-sticky.sticky .slider-city {
+        margin-bottom: 10px;}
+    #header-fix.header-sticky.sticky .navigation-right {
+        top: 54px;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 620px){
@@ -189,5 +203,73 @@
         padding-left: 20%;}
     .candidate{
         left: 138px;    }
+    .block-photo {
+        height: 388px;
+    }
+    .title-map {
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .title {
+        font-size: 20px;
+        margin-top: 0;
+        height: auto;
+        padding: 10px 10px;}
 }
+@media only screen and (max-width: 619px) and (min-width: 500px){
+
+    .block-photo {
+        height: 306px;
+    }
+
+}
+    @media only screen and (max-width: 619px) and (min-width: 570px) {
+    .about-candidate {
+        padding-left: 100px;
+    }
+
+    .candidate {
+        position: relative;
+        bottom: -5px;
+        left: 90px;
+    }
+}
+
+    @media only screen and (max-width: 500px) and (min-width: 400px){
+
+    .block-photo {
+        height: 239px;
+    }
+    .logo-maps {
+        display: none;
+    }
+    .title {
+        font-size: 18px;}
+
+    }
+
+@media only screen and (max-width: 400px) and (min-width: 320px){
+
+    .block-photo {
+        height: 239px;
+    }
+    .logo-maps {
+        display: none;
+    }
+    .title {
+        font-size: 18px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
